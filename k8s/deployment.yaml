@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: notes-app
-          image: notes-app
+          image: dimipg/notes-app:v1
           imagePullPolicy: Never   # 🔥 ADD THIS
           ports:
             - containerPort: 8000
