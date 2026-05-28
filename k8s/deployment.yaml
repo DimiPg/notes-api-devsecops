@@ -15,6 +15,6 @@ spec:
       containers:
         - name: notes-app
           image: notes-app
-          imagePullPolicy: Never
+          imagePullPolicy: Never   # 🔥 ADD THIS
           ports:
             - containerPort: 8000
